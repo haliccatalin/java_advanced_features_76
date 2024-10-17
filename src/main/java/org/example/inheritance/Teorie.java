@@ -1,5 +1,7 @@
 package org.example.inheritance;
 
+import org.example.inheritance.b.Car;
+
 public class Teorie {
     public static void main(String[] args) {
         Dog rex = new Dog("Rex", "Labrador", 10.8, 2);
@@ -34,6 +36,10 @@ public class Teorie {
 
         Creature creature = new Creature();
         System.out.println(creature.getAge());
+
+        Car c = new Car();
+//        c.name = ""; // asa nu merge protected
+
 
     }
 }
