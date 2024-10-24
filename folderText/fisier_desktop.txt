@@ -1,0 +1,5 @@
+birou
+masina
+canapea
+monitor
+pc
